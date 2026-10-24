@@ -1,0 +1,872 @@
+.anthony-moda-desktop,
+.anthony-moda-desktop * {
+  box-sizing: border-box;
+}
+.anthony-moda-desktop {
+  background: #090244;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+._01-home-hero {
+  background: #080626;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.header-brand-and-navigation {
+  background: #080626;
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 87px;
+  position: relative;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.brand-moda-a {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: relative;
+}
+.brand-portfolio-subtitle {
+  color: var(--accent, #ff2d55);
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 14.837837219238281px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  position: relative;
+}
+.navigation-menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-home {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.nav-about {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.nav-skills {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.nav-projects {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.nav-contact {
+  color: #00ff41;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.header-divider {
+  background: #b447c9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 10px;
+  position: relative;
+}
+.hero-body {
+  padding: 48px 120px 64px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 640px;
+  position: relative;
+}
+.badge-bscs-student {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 156px;
+  height: 25px;
+  position: relative;
+}
+.badge-label {
+  color: var(--accent, #ff2d55);
+  text-align: center;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.badge-outline {
+  border-radius: 19.06px;
+  border-style: solid;
+  border-color: var(--text, #cb30e0);
+  border-width: 1.79px;
+  flex-shrink: 0;
+  width: 156px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hero-main-heading {
+  color: #0cf6ac;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 96px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: relative;
+}
+.hero-introduction {
+  color: var(--text, #cb30e0);
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  position: relative;
+  width: 600px;
+}
+.artwork-pop-cat {
+  flex-shrink: 0;
+  width: 228px;
+  height: 195.6px;
+  position: relative;
+  object-fit: cover;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.artwork-sunglasses-cat {
+  flex-shrink: 0;
+  width: 292px;
+  height: 242px;
+  position: relative;
+  object-fit: cover;
+}
+.button-explore-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 273px;
+  height: 74px;
+  position: relative;
+}
+.button-label {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.button-outline {
+  border-radius: 32px;
+  border-style: solid;
+  border-color: var(--surface, #ff8d28);
+  border-width: 3px;
+  flex-shrink: 0;
+  width: 273px;
+  height: 74px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._02-about-me {
+  background: #10104c;
+  padding: 40px 120px 48px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.section-heading-about-me {
+  padding: 0px 0px 0px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 80px;
+  position: relative;
+}
+.heading-outline {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--accent, #ff2d55);
+  border-width: 3px;
+  flex-shrink: 0;
+  height: 72px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 4px;
+}
+.heading-label {
+  color: var(--accent, #ff2d55);
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.about-student-biography {
+  color: #00ff2f;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.about-taekwondo-and-hobbies {
+  color: #00ff2f;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._03-skills {
+  background: #080626;
+  padding: 40px 120px 48px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.section-heading-skills {
+  padding: 0px 0px 0px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 80px;
+  position: relative;
+}
+.heading-outline2 {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--surface, #ff8d28);
+  border-width: 3px;
+  flex-shrink: 0;
+  height: 72px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 4px;
+}
+.heading-label2 {
+  color: var(--surface, #ff8d28);
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.skills-card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.skill-card-discipline {
+  background: #10104c;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #17fa63;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  position: relative;
+}
+.card-title {
+  color: var(--accent, #ff2d55);
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: relative;
+}
+.card-description {
+  color: #00ff2f;
+  text-align: left;
+  font-family: "PixelifySans-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.skill-card-teamwork {
+  background: #10104c;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #17fa63;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  position: relative;
+}
+.skill-card-practical {
+  background: #10104c;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #17fa63;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  position: relative;
+}
+._04-projects {
+  background: #090244;
+  padding: 40px 120px 48px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.section-heading-projects {
+  padding: 0px 0px 0px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 80px;
+  position: relative;
+}
+.heading-outline3 {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--text, #cb30e0);
+  border-width: 3px;
+  flex-shrink: 0;
+  height: 72px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 4px;
+}
+.heading-label3 {
+  color: #e628f8;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.projects-card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.project-card-01-figma-web-portfolio {
+  background: #0a0a4a;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--surface, #ff8d28);
+  border-width: 3px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.project-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.project-card-badge {
+  background: var(--surface, #ff8d28);
+  border-radius: 999px;
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.project-card-badge-label {
+  color: #090244;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: relative;
+}
+.project-card-status {
+  background: var(--background, #0088ff);
+  border-radius: 999px;
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.project-card-status-label {
+  color: #090244;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: relative;
+}
+.project-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.project-card-title {
+  color: var(--surface, #ff8d28);
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.project-card-description {
+  color: #ffff00;
+  text-align: left;
+  font-family: "PixelifySans-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.project-image-figma-web-portfolio {
+  flex-shrink: 0;
+  width: 217px;
+  height: 139px;
+  position: relative;
+  object-fit: cover;
+}
+.project-card-02-web-coded-portfolio {
+  background: #0a0a4a;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--surface, #ff8d28);
+  border-width: 3px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.project-card-description2 {
+  color: rgba(24, 248, 24, 0.8);
+  text-align: left;
+  font-family: "PixelifySans-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.project-image-web-coded-portfolio {
+  flex-shrink: 0;
+  width: 217px;
+  height: 145px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 217/145;
+}
+.project-card-03-college-life {
+  background: #0a0a4a;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--surface, #ff8d28);
+  border-width: 3px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.project-card-description3 {
+  color: #fd1d1d;
+  text-align: left;
+  font-family: "PixelifySans-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.project-image-college-life {
+  flex-shrink: 0;
+  width: 109px;
+  height: 145px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 109/145;
+}
+._05-contact {
+  background: #080626;
+  padding: 24px 116px 24px 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-heading-contact-me {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  position: relative;
+}
+.heading-outline4 {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #28f82f;
+  border-width: 3px;
+  flex-shrink: 0;
+  height: 72px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 6px;
+}
+.heading-label4 {
+  color: #28f82f;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  position: absolute;
+  right: 174px;
+  left: 45px;
+  top: 15.4px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-details-photos {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.contact-card-email {
+  background: #0a0a4a;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-label {
+  color: #68e030;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.email-address {
+  color: #00e7f8;
+  text-align: left;
+  font-family: "PixelifySans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.contact-card-social-profiles {
+  background: #0a0a4a;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-profiles-label {
+  color: #68e030;
+  text-align: left;
+  font-family: "PixelifySans-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.social-profiles-links {
+  color: #00e7f8;
+  text-align: left;
+  font-family: "PixelifySans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.contact-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 167px;
+  position: relative;
+}
+.contact-image {
+  flex-shrink: 0;
+  width: 167px;
+  height: 167.93px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 167/167.93;
+}
+.decoration-divider {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2px;
+  position: relative;
+  overflow: visible;
+}
